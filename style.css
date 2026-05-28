@@ -50,11 +50,11 @@ iframe{
 .container {
   display: flex; /* Aligns children side-by-side */
   align-items: flex-start; /* Keeps items at the top */
-  gap: 20px; /* Space between the image and text */
+  gap: 10px; /* Space between the image and text */
 }
 
 .side-image {
-  max-width: 400px; /* Adjust size as needed */
+  max-width: 300px; /* Adjust size as needed */
   height: auto;
 }
 
