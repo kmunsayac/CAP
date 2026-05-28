@@ -1,0 +1,91 @@
+body {
+  background-color:#EB4C4C;
+}
+h1{
+  display:flex;
+  justify-content: center;
+  color:#FFEDC7;
+  
+}
+
+h3{
+  color:#FFEDC7;
+}
+
+p{
+  color: #FFEDC7;
+  font-size:20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFA6A6;
+  justify-content: center;
+  display: flex;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color:#EB4C4C ;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  background-color: #ffedc7;
+}
+
+iframe{
+  display: block;
+  margin: 20px auto;
+}
+
+.container {
+  display: flex; /* Aligns children side-by-side */
+  align-items: flex-start; /* Keeps items at the top */
+  gap: 20px; /* Space between the image and text */
+}
+
+.side-image {
+  max-width: 400px; /* Adjust size as needed */
+  height: auto;
+}
+
+img{
+  width:300px;
+}
+
+hr{
+  color: #FFEDC7;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; /* This centers the row */
+  gap: 25px; /* Adds space between the images */
+  height:500px;
+}
+
+.image-row img {
+  width: 30%;             /* Adjust size so they fit in one row */
+}
+
+.image-row-two {
+  display: flex;
+  justify-content: center; /* This centers the row */
+  gap: 400px; /* Adds space between the images */
+}
+
+.image-row-row{
+  display: flex;
+  justify-content: center; /* This centers the row */
+  gap: 25px; /* Adds space between the images */
+  height:350px;
+}
